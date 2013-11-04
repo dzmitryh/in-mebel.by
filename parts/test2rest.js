@@ -1,0 +1,11 @@
+fb_sharepro_render([{
+    "url":"http:\/\/www.in-mebel.by\/services",
+    "normalized_url":"http:\/\/www.in-mebel.by\/services",
+    "share_count":0,
+    "like_count":0,
+    "comment_count":0,
+    "total_count":0,
+    "click_count":0,
+    "comments_fbid":10150700478797392,
+    "commentsbox_count":0
+}]);

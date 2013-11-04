@@ -1,0 +1,39 @@
+User-agent: Unknown robot
+Disallow: /
+User-agent:Yandex
+Disallow: /css/
+Disallow: /decor_img/
+Disallow: /entropybanner/
+Disallow: /images/
+Disallow: /images_conc/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /parts/
+Disallow: /JSCal2/
+Disallow: /_vti_inf.html
+Disallow: /google6997e67a46482376.html
+Disallow: /yandex_4347d186416b6498.html
+Disallow: /postinfo.html
+Disallow: /web.config
+Disallow: /default.aspx
+Host: in-mebel.by
+
+User-agent: *
+Disallow: /css/
+Disallow: /decor_img/
+Disallow: /entropybanner/
+Disallow: /images/
+Disallow: /images_conc/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /parts/
+Disallow: /JSCal2/
+Disallow: /_vti_inf.html
+Disallow: /google6997e67a46482376.html
+Disallow: /yandex_4347d186416b6498.html
+Disallow: /postinfo.html
+Disallow: /web.config
+Disallow: /default.aspx
+
+
+

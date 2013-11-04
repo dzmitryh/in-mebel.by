@@ -1,0 +1,61 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName in-mebel.by
+AuthUserFile /home/inmebelb/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/inmebelb/public_html/_vti_pvt/service.grp
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^in-mebel.by
+RewriteRule (.*) http://www.in-mebel.by/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.in-mebel.by/ [R=301,L]
+
+RewriteEngine on
+RewriteBase /
+# RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^index$ index.php
+RewriteRule ^services$ services.php
+RewriteRule ^about$ about.php
+RewriteRule ^contact$ contact.php
+
+RewriteRule ^catalog/wardrobe_1$ catalog/wardrobe_1.php
+RewriteRule ^catalog/wardrobe_2$ catalog/wardrobe_2.php
+RewriteRule ^catalog/wardrobe_3$ catalog/wardrobe_3.php
+RewriteRule ^catalog/wardrobe_4$ catalog/wardrobe_4.php
+RewriteRule ^catalog/wardrobe_5$ catalog/wardrobe_5.php
+RewriteRule ^catalog/kitchen_1$ catalog/kitchen_1.php
+RewriteRule ^catalog/kitchen_2$ catalog/kitchen_2.php
+RewriteRule ^catalog/bed_1$ catalog/bed_1.php
+RewriteRule ^catalog/photoprint_1$ catalog/photoprint_1.php
+RewriteRule ^catalog/table_1$ catalog/table_1.php
+RewriteRule ^catalog/sandblasting_1$ catalog/sandblasting_1.php
+
+Redirect 301 http://in-mebel.by/index.php http://in-mebel.by/index
+Redirect 301 http://in-mebel.by/services.php http://in-mebel.by/services
+Redirect 301 http://in-mebel.by/about.php http://in-mebel.by/about
+Redirect 301 http://in-mebel.by/contact.php http://in-mebel.by/contact
+
+Redirect 301 http://in-mebel.by/catalog/wardrobe_1.php http://in-mebel.by/catalog/wardrobe_1
+Redirect 301 http://in-mebel.by/catalog/wardrobe_2.php http://in-mebel.by/catalog/wardrobe_2
+Redirect 301 http://in-mebel.by/catalog/wardrobe_3.php http://in-mebel.by/catalog/wardrobe_3
+Redirect 301 http://in-mebel.by/catalog/wardrobe_4.php http://in-mebel.by/catalog/wardrobe_4
+Redirect 301 http://in-mebel.by/catalog/wardrobe_5.php http://in-mebel.by/catalog/wardrobe_5
+Redirect 301 http://in-mebel.by/catalog/kitchen_1.php http://in-mebel.by/catalog/kitchen_1
+Redirect 301 http://in-mebel.by/catalog/kitchen_2.php http://in-mebel.by/catalog/kitchen_2
+Redirect 301 http://in-mebel.by/catalog/bed_1.php http://in-mebel.by/catalog/bed
+Redirect 301 http://in-mebel.by/catalog/photoprint_1.php http://in-mebel.by/catalog/photoprint_1
+Redirect 301 http://in-mebel.by/catalog/table_1.php http://in-mebel.by/catalog/table_1
+Redirect 301 http://in-mebel.by/catalog/sandblasting_1.php http://in-mebel.by/catalog/sandblasting_1

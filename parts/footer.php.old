@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+                <div id="content_bottom_bg">
+                    <div id="content_bottom">
+                        <div class="con_bot_left">
+                            <p>Мы оказываем следующие услуги: сборка, установка шкафов-купе.. и т.д. </p>
+                        </div>
+                        <div class="con_bot_right">
+                            <p><a href="/services.php">Подробнее тут</a></p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div id="footer_border_top"></div>
+                <div id="footer">
+                    <div id="footer_top">
+                        <div class="foot_col2">
+                            <h5>Контактная информация</h5>
+                            <p>
+                                Минск, Кунцевщина 89-29<br />
+                                Тел.:  +375(29) 504-28-89 |
+                                       +375(29) 150-58-88<br />
+                                E-mail:master-27@tut.by<br />
+                            </p>
+                        </div>
+
+                        <div class="foot_col3">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div id="calendar-container"></div>
+                                        <div id="calendar-info" style="margin-top: 0.3em"></div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        <!-- calendar configuratoin -->
+                        <script type="text/javascript" src="/js/calendar_setup.js"></script>
+                        </div>
+
+                        <div class="foot_col4">
+                            <h5>Отметить нас</h5>
+                            <span id="ya_share1"></span>
+<!--                            <script type="text/javascript" src="js/yandex_share.js"></script>-->
+<!--                            <div class="yashare-auto-init" data-yashareL10n="ru"
+                                 data-yashareType="none"
+                                 data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj"></div>-->
+
+<!--                            <div class="link1"><a title="Facebook" href="">Facebook</a></div>-->
+<!--                            <div class="link2"><a title="RSS Feed" href="#">RSS Feed</a></div>-->
+<!--                            <div class="link3"><a title="Twitter"  href="#">Twitter</a></div>-->
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+
+                    <div id="footer_menu">
+                        <ul>
+                            <li><a href="/index.php" class="active">Главная</a></li>
+                            <li><a href="/catalog/wardrobe_1.php#begin">Каталог</a></li>
+                            <li><a href="/services.php">Услуги</a></li>
+                            <li><a href="/about.php">О нас</a></li>
+                            <li><a href="/contact.php">Контакты</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div id="footer_bot">
+                    <p>© Copyright  2011 MebelM.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
