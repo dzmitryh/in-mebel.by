@@ -6,9 +6,9 @@ $description = "";
 include("$root/parts/header.php");
 ?>
 
-<!--<?php-->
-<!--mail("dzmitry.hubin@gmail.com", "in-mebel.by TEST", "Hello,\nDzmitry!");-->
-<!--?>-->
+/*<?php
+    <mail("dzmitry.hubin@gmail.com", "in-mebel.by TEST", "Hello,\nDzmitry!");>
+<?>*/
 
 <div id="content_bg">
     <div id="content">
